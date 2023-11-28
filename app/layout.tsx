@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body className={`${LINESeedJP.className} bg text-white-1`}>
-        <div className="grid grid-cols-1 grid-rows-[45px_1fr] lg:grid-rows-[63px_1fr] gap-0 dvh overflow-hidden">
+        <div className="grid grid-cols-1 grid-rows-[45px_1fr] lg:grid-rows-[63px_1fr] gap-0 h-dvh overflow-hidden">
           <Header />
           <main className="h-full">{children}</main>
         </div>
