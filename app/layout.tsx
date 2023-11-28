@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 
 import Header from './components/header'
 import Nav from './components/nav'
-import { LINESeedJP } from './utils/font'
+import { LINESeedJP } from './utils/fonts'
 
 export const metadata: Metadata = {
   title: {

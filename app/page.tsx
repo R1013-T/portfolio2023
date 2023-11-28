@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <article className="h-full p-4 mx-auto max-w-6xl overflow-hidden">
+    <article className="h-full p-4 pt-3 mx-auto max-w-6xl overflow-hidden">
       <div className="h-full w-full hidden lg:grid grid-cols-4 grid-rows-3 gap-4">
         <div className="col-span-2 row-span-1 border border-white bg-white/40 rounded-md opacity-0 showLeftRight">
           プロフィール
