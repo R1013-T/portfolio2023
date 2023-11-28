@@ -1,5 +1,7 @@
 import React from 'react'
 
+import ItemLayout from '../item-layout'
+
 export default function Profile() {
-  return <div>Profile</div>
+  return <ItemLayout link="/about/profile">Profile</ItemLayout>
 }

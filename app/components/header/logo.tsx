@@ -1,8 +1,9 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Logo() {
   return (
-    <div className="flex items-center gap-0.5 lg:gap-2">
+    <Link href="/" className="flex items-center gap-0.5 lg:gap-2">
       <Image
         src="/images/icon.png"
         className="rounded-full scale-75 lg:scale-100"
@@ -11,6 +12,6 @@ export default function Logo() {
         alt="プロフィール画像"
       />
       <p className="tracking-wider font-bold text-base lg:text-xl">RYU</p>
-    </div>
+    </Link>
   )
 }
