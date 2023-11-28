@@ -21,6 +21,9 @@ const config: Config = {
         'white-3': '#E7F7F9',
         'white-4': '#EDEDED',
       },
+      height: {
+        dvh: '100dvh',
+      },
     },
   },
   plugins: [],
