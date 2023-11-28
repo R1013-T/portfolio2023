@@ -3,25 +3,90 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-light: #c8d5bb;
+  --background-dark: #6c848d;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-light: #47585c;
+    --background-dark: #16160e;
+  }
+} */
+
+.bg {
+  background: linear-gradient(
+    270deg,
+    var(--background-light),
+    var(--background-dark)
+  );
+  background-size: 400% 400%;
+
+  animation: bg-gradation 30s ease infinite;
+}
+
+@keyframes bg-gradation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.showTopBottom {
+  animation: showTopBottom 0.3s 0.1s ease forwards;
+}
+.showBottomTop {
+  animation: showBottomTop 0.3s 0.1s ease forwards;
+}
+.showRightLeft {
+  animation: showRightLeft 0.3s 0.1s ease forwards;
+}
+.showLeftRight {
+  animation: showLeftRight 0.3s 0.1s ease forwards;
+}
+
+@keyframes showTopBottom {
+  from {
+    transform: translateY(-10%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes showBottomTop {
+  from {
+    transform: translateY(10%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes showRightLeft {
+  from {
+    transform: translateX(10%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes showLeftRight {
+  from {
+    transform: translateX(-10%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
