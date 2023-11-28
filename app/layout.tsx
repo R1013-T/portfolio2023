@@ -1,12 +1,10 @@
 import './globals.css'
 
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 
 import Header from './components/header'
 import Nav from './components/nav'
-
-const inter = Inter({ subsets: ['latin'] })
+import { LINESeedJP } from './utils/font'
 
 export const metadata: Metadata = {
   title: {
@@ -23,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <body className={`${inter.className} bg`}>
+      <body className={`${LINESeedJP.className} bg`}>
         <div className="grid grid-cols-1 grid-rows-[40px_1fr] lg:grid-rows-[50px_1fr] gap-0 h-screen">
           <Header />
           <main className="h-full">{children}</main>
