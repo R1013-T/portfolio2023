@@ -1,3 +1,5 @@
+import GitHub from '@/app/components/main/items/about/github'
+import MeImage from '@/app/components/main/items/about/me-image'
 import Profile from '@/app/components/main/items/about/profile'
 import type { GridItem } from '@/app/lib/definitions'
 
@@ -11,13 +13,13 @@ export const PCAboutItems: GridItem[] = [
   {
     col: 1,
     row: 1,
-    children: <p>GitHub</p>,
+    children: <GitHub />,
     animation: 'showBottomTop',
   },
   {
     col: 1,
     row: 2,
-    children: <p>画像</p>,
+    children: <MeImage />,
     animation: 'showRightLeft',
   },
   {

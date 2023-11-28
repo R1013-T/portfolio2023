@@ -13,7 +13,7 @@ export default function GridItem({
 }) {
   return (
     <div
-      className={`col-span-${col} row-span-${row} bg-white/50 rounded-md opacity-0 cursor-pointer ${animation} ${
+      className={`col-span-${col} row-span-${row} bg-white-1/50 rounded-md opacity-0 cursor-pointer transition-colors hover:bg-white-1/70  ${animation} ${
         disabled && 'pointer-events-none'
       }`}
     >

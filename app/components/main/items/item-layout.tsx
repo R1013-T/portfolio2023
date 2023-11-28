@@ -8,7 +8,7 @@ export default function ItemLayout({
   link: string
 }) {
   return (
-    <Link href={link} className="h-full w-full bg-red-300 rounded-md block">
+    <Link href={link} className="h-full w-full rounded-md block">
       {children}
     </Link>
   )
