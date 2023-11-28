@@ -31,11 +31,11 @@ export default function NavItems() {
           <Link
             key={name}
             href={href}
-            className={`flex items-center gap-1 py-1.5 px-3 rounded-full ${
+            className={`flex items-center gap-1 py-3 lg:py-1.5 px-3 rounded-full ${
               isActive ? 'text-black-2 bg-white-1/40' : 'text-white-1'
             }`}
           >
-            <Icon className="h-8 w-8 lg:h-6 lg:w-6" />
+            <Icon className="h-6 w-6" />
             <p className="hidden lg:block p-0.5">{name}</p>
           </Link>
         )
