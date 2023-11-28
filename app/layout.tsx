@@ -21,8 +21,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <body className={`${LINESeedJP.className} bg`}>
-        <div className="grid grid-cols-1 grid-rows-[40px_1fr] lg:grid-rows-[50px_1fr] gap-0 h-screen">
+      <body className={`${LINESeedJP.className} bg text-white-1`}>
+        <div className="grid grid-cols-1 grid-rows-[45px_1fr] lg:grid-rows-[63px_1fr] gap-0 h-screen">
           <Header />
           <main className="h-full">{children}</main>
         </div>
