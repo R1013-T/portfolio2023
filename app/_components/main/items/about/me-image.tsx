@@ -5,7 +5,7 @@ import ItemLayout from '../item-layout'
 
 export default function MeImage() {
   return (
-    <ItemLayout link="/about/profile">
+    <ItemLayout link="/about#profile">
       <div className="flex justify-center items-center h-full">
         <div className="">
           <div className="bg-white-4 rounded-full">
@@ -21,7 +21,7 @@ export default function MeImage() {
             </DoubleBorder>
           </div>
           <p className="absolute bottom-2.5 left-0 w-full text-black-2 text-center">
-            画像はイメージです
+            <span className="text-sm mr-0.5">&#8251;</span>画像はイメージです。
           </p>
         </div>
       </div>

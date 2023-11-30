@@ -1,4 +1,4 @@
-export default function DetailLayout({
+export default function AboutLayout({
   children,
 }: {
   children: React.ReactNode

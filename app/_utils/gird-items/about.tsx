@@ -1,6 +1,7 @@
 import GitHub from '@/app/_components/main/items/about/github'
 import MeImage from '@/app/_components/main/items/about/me-image'
 import Profile from '@/app/_components/main/items/about/profile'
+import Skill from '@/app/_components/main/items/about/skill'
 import X from '@/app/_components/main/items/about/x'
 import type { GridItem } from '@/app/_lib/definitions'
 
@@ -32,7 +33,7 @@ export const PCAboutItems: GridItem[] = [
   {
     col: 2,
     row: 1,
-    children: <p>スキル</p>,
+    children: <Skill />,
     animation: 'showBottomTop',
   },
   {

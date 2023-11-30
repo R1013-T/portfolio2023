@@ -6,7 +6,7 @@ import ItemLayout from '../item-layout'
 
 export default function Profile() {
   return (
-    <ItemLayout link="/about/profile">
+    <ItemLayout link="/about#profile">
       <div className="h-full flex justify-center items-center gap-6">
         <div>
           <DoubleBorder>
@@ -20,10 +20,14 @@ export default function Profile() {
           </DoubleBorder>
         </div>
         <div>
-          <p className="font-bold text-black-1 text-2xl mb-1 tracking-widest">
+          <p className="font-bold text-black-1 text-2xl mb-2 tracking-widest">
             髙橋 龍之介
           </p>
-          <p className="text-black-2">ものづくりが好きな学生エンジニアです。</p>
+          <p className="text-black-2">
+            ものづくりが好きな学生エンジニアです。
+            <br />
+            東京都に生息しています。
+          </p>
         </div>
       </div>
     </ItemLayout>

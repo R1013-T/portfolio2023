@@ -10,8 +10,8 @@ export default function GitHub() {
         <Image
           src="/images/logo/github.svg"
           alt="GitHubのロゴ"
-          width={150}
-          height={150}
+          width={120}
+          height={120}
         />
       </div>
     </a>

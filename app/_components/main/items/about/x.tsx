@@ -8,8 +8,8 @@ export default function X() {
         <Image
           src="/images/logo/x.svg"
           alt="GitHubのロゴ"
-          width={150}
-          height={150}
+          width={100}
+          height={100}
         />
       </div>
     </a>
