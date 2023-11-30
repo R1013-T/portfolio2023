@@ -1,5 +1,5 @@
-import GridItem from './components/main/grid-item'
-import { PCAboutItems } from './utils/gird-items/about'
+import GridItem from './_components/main/grid-item'
+import { PCAboutItems } from './_utils/gird-items/about'
 
 export default function Home() {
   return (

@@ -24,6 +24,9 @@ const config: Config = {
       height: {
         dvh: '100dvh',
       },
+      scale: {
+        120: '1.2',
+      }
     },
   },
   plugins: [],

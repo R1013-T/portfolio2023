@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
-import GridItem from '../components/main/grid-item'
-import { PCWorksItems } from '../utils/gird-items/works'
+import GridItem from '../_components/main/grid-item'
+import { PCWorksItems } from '../_utils/gird-items/works'
 
 export const metadata: Metadata = {
   title: '作ったものたち',

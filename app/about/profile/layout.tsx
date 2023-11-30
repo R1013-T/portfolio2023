@@ -1,4 +1,4 @@
-import DetailLayout from '@/app/components/main/detail/layout'
+import DetailLayout from '@/app/_components/main/detail/layout'
 
 export default function AboutLayout({
   children,

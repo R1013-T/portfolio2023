@@ -1,7 +1,8 @@
-import GitHub from '@/app/components/main/items/about/github'
-import MeImage from '@/app/components/main/items/about/me-image'
-import Profile from '@/app/components/main/items/about/profile'
-import type { GridItem } from '@/app/lib/definitions'
+import GitHub from '@/app/_components/main/items/about/github'
+import MeImage from '@/app/_components/main/items/about/me-image'
+import Profile from '@/app/_components/main/items/about/profile'
+import X from '@/app/_components/main/items/about/x'
+import type { GridItem } from '@/app/_lib/definitions'
 
 export const PCAboutItems: GridItem[] = [
   {
@@ -37,7 +38,7 @@ export const PCAboutItems: GridItem[] = [
   {
     col: 1,
     row: 1,
-    children: <p>X</p>,
+    children: <X />,
     animation: 'showBottomTop',
   },
   {

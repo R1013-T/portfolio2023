@@ -1,4 +1,4 @@
-import type { GridItem } from '@/app/lib/definitions'
+import type { GridItem } from '@/app/_lib/definitions'
 
 export const PCWorksItems: GridItem[] = [
   {
