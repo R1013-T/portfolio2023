@@ -20,7 +20,9 @@ export default function MeImage() {
               </div>
             </DoubleBorder>
           </div>
-          <p className="absolute bottom-2.5 left-0 w-full text-black-2 text-center">画像はイメージです</p>
+          <p className="absolute bottom-2.5 left-0 w-full text-black-2 text-center">
+            画像はイメージです
+          </p>
         </div>
       </div>
     </ItemLayout>
