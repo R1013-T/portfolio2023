@@ -24,6 +24,12 @@ const config: Config = {
       height: {
         dvh: '100dvh',
       },
+      minHeight: {
+        1: '15rem',
+      },
+      maxWidth: {
+        100: '40rem',
+      },
       scale: {
         120: '1.2',
       },
