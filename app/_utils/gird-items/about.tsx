@@ -1,4 +1,5 @@
 import GitHub from '@/app/_components/main/items/about/github'
+import HomeTown from '@/app/_components/main/items/about/home-town'
 import MeImage from '@/app/_components/main/items/about/me-image'
 import Profile from '@/app/_components/main/items/about/profile'
 import Skill from '@/app/_components/main/items/about/skill'
@@ -45,7 +46,7 @@ export const PCAboutItems: GridItem[] = [
   {
     col: 1,
     row: 1,
-    children: <p>東京</p>,
+    children: <HomeTown />,
     animation: 'showLeftRight',
   },
   {
