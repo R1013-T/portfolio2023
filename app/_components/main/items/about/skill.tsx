@@ -31,7 +31,7 @@ export default function Skill() {
           />
         </div>
         <div className="text-black-2 w-full p-3">
-          <p className="text-center">
+          <p className="text-center text-sm lg:text-base">
             Next.jsが大好きです!
             <br />
             フロントエンド・バックエンド両方勉強しています。

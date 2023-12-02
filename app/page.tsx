@@ -9,7 +9,7 @@ export default function Home() {
           <GridItem key={i} {...item} />
         ))}
       </div>
-      <div className="h-auto w-full max-w-3xl mx-auto grid lg:hidden grid-cols-2 gap-4 pb-32">
+      <div className="h-auto w-full max-w-3xl mx-auto grid lg:hidden grid-cols-2 gap-4 pb-52">
         {MobileAboutItems.map((item, i) => (
           <GridItem key={i} {...item} />
         ))}

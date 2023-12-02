@@ -12,7 +12,7 @@ export default function Profile() {
           <DoubleBorder>
             <Image
               src="/images/icon.png"
-              className="rounded-full"
+              className="rounded-full scale-75 lg:scale-100"
               alt="プロフィール画像"
               width={150}
               height={150}
@@ -20,10 +20,10 @@ export default function Profile() {
           </DoubleBorder>
         </div>
         <div>
-          <p className="font-bold text-black-1 text-2xl mb-2 tracking-widest">
+          <p className="font-bold text-black-1 text-xl lg:text-2xl mb-2 tracking-widest">
             髙橋 龍之介
           </p>
-          <p className="text-black-2">
+          <p className="text-black-2 text-sm lg:text-base">
             ものづくりが好きな学生エンジニアです。
             <br />
             東京都に生息しています。

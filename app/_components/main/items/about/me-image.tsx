@@ -20,8 +20,9 @@ export default function MeImage() {
               </div>
             </DoubleBorder>
           </div>
-          <p className="absolute bottom-2.5 left-0 w-full text-black-2 text-center">
-            <span className="text-sm mr-0.5">&#8251;</span>画像はイメージです。
+          <p className="absolute bottom-5 lg:bottom-2.5 left-0 w-full text-black-2 text-center">
+            <span className="text-xs lg:text-sm mr-0.5">&#8251;</span>
+            画像はイメージです。
           </p>
         </div>
       </div>
