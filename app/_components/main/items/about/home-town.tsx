@@ -10,7 +10,7 @@ export default function HomeTown() {
         alt="東京の地図の画像"
         layout="fill"
         objectFit="contain"
-        className="scale-120"
+        className="scale-150"
       />
     </ItemLayout>
   )

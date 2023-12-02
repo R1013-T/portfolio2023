@@ -98,14 +98,14 @@ export const MobileAboutItems: GridItem[] = [
   },
   {
     col: 1,
-    row: 2,
-    children: <Slot />,
-    animation: 'showLeftRight',
-  },
-  {
-    col: 1,
     row: 1,
     children: <Mail />,
     animation: 'showRightLeft',
+  },
+  {
+    col: 2,
+    row: 1,
+    children: <Slot />,
+    animation: 'showLeftRight',
   },
 ]
