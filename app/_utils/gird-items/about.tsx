@@ -3,6 +3,7 @@ import HomeTown from '@/app/_components/main/items/about/home-town'
 import MeImage from '@/app/_components/main/items/about/me-image'
 import Profile from '@/app/_components/main/items/about/profile'
 import Skill from '@/app/_components/main/items/about/skill'
+import Slot from '@/app/_components/main/items/about/slot'
 import X from '@/app/_components/main/items/about/x'
 import type { GridItem } from '@/app/_lib/definitions'
 
@@ -28,7 +29,7 @@ export const PCAboutItems: GridItem[] = [
   {
     col: 1,
     row: 2,
-    children: <p>スロット</p>,
+    children: <Slot />,
     animation: 'showLeftRight',
   },
   {
