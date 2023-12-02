@@ -10,6 +10,7 @@ export default function HomeTown() {
         alt="東京の地図の画像"
         layout="fill"
         objectFit="cover"
+        className='rounded-md'
       />
     </ItemLayout>
   )
