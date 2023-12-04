@@ -14,7 +14,7 @@ export default async function WorksGridItem({ id }: { id: string }) {
         src={item.image.url}
         alt={item.name}
         layout="fill"
-        objectFit="cover"
+        objectFit="contain"
         className="rounded-xl scale-50"
       />
       <div className="absolute top-0 left-0 p-3 text-black-1 tracking-wide">

@@ -4,7 +4,7 @@ import GridItem from '../_components/main/grid-item'
 import { DesktopWorksItems, MobileWorksItems } from '../_utils/gird-items/works'
 
 export const metadata: Metadata = {
-  title: '作ったものたち',
+  title: '作ったもの',
 }
 
 export default function Page() {
