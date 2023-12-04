@@ -1,40 +1,42 @@
+import GitHub from '@/app/_components/main/items/about/github'
+import WorksGridItem from '@/app/_components/main/items/works/grid-item'
 import type { GridItem } from '@/app/_lib/definitions'
 
-export const PCWorksItems: GridItem[] = [
+export const DesktopWorksItems: GridItem[] = [
   {
     col: 2,
     row: 1,
-    children: <p>GiftJob</p>,
+    children: <WorksGridItem id="w4tjcaken-8" />,
     animation: 'showTopBottom',
   },
   {
     col: 1,
     row: 2,
-    children: <p>共病日記</p>,
+    children: <WorksGridItem id="puszn28etxi" />,
     animation: 'showRightLeft',
   },
   {
     col: 1,
     row: 1,
-    children: <p>GitHub</p>,
+    children: <GitHub />,
     animation: 'showLeftRight',
   },
   {
     col: 1,
     row: 2,
-    children: <p>GiftJob</p>,
+    children: <WorksGridItem id="s9i98f4xmb" />,
     animation: 'showLeftRight',
   },
   {
     col: 1,
     row: 1,
-    children: <p>ヒトカン</p>,
+    children: <WorksGridItem id="0gj_71vdti" />,
     animation: 'showBottomTop',
   },
   {
     col: 1,
     row: 1,
-    children: <p>2022</p>,
+    children: <WorksGridItem id="64_api7nx" />,
     animation: 'showBottomTop',
   },
   {
