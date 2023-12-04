@@ -17,7 +17,7 @@ export default function GridItem({
 
   return (
     <div
-      className={`col-span-${col} row-span-${row} bg-white-1/60 rounded-xl min-h-1 lg:min-h-0 overflow-hidden opacity-0 cursor-pointer transition-colors hover:bg-white-1/70
+      className={`col-span-${col} row-span-${row} bg-white-1/60 rounded-xl min-h-1 lg:min-h-0 overflow-hidden opacity-0 transition-colors hover:bg-white-1/70
       ${animation} ${disabled && 'pointer-events-none'}
       ${square && 'h-52 lg:h-auto'}`}
     >
