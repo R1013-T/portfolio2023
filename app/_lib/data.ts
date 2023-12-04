@@ -5,7 +5,7 @@ export async function fetchWorks(id: string) {
     const response = await fetch(
       `${process.env.NEXT_PUBLIC_APi_ENDPOINT}works/${id}`,
       {
-        cache: 'no-store',
+        cache: 'force-cache',
         headers: {
           'X-MICROCMS-API-KEY': process.env.API_KEY || '',
         },
