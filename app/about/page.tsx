@@ -2,7 +2,8 @@ import BackButton from '../_components/main/common/back-button'
 
 export default function AboutPage() {
   return (
-    <article className="h-full overflow-y-auto mt-2 lg:mt-0">
+    <article className="h-dvh overflow-y-auto">
+      <div className="h-12 lg:h-0"></div>
       <BackButton href="/" />
       <main className="px-3 pb-20 lg:pb-3">
         <section id="profile" className="h-80 border border-red-500">
