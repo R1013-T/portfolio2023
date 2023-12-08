@@ -12,9 +12,9 @@ export default async function Page() {
   const blogs: BlogItem[] = await fetchBlogs()
 
   return (
-    <article className="h-screen p-4 pt-3 pb-52 mx-auto max-w-6xl overflow-y-scroll overflow-x-hidden">
+    <article className="h-hull p-4 pt-3 pb-52 mx-auto max-w-6xl overflow-y-auto overflow-x-hidden">
       <h2 className="text-xl mb-1 tracking-wider">RYUのブログへようこそ👋</h2>
-      <h3 className="text-sm mb-4">
+      <h3 className="text-sm mb-4 text-white-2">
         日々の日記やメモがてら、気ままに書いていきます。
       </h3>
       {blogs.length === 0 ? (

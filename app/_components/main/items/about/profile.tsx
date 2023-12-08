@@ -6,7 +6,7 @@ import ItemLayout from '../item-layout'
 
 export default function Profile() {
   return (
-    <ItemLayout link="/about#profile">
+    <ItemLayout link="/about">
       <div className="h-full flex justify-center items-center gap-6">
         <div>
           <DoubleBorder>
