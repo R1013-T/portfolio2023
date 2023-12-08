@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="ja">
       <body className={`${LINESeedJP.className} bg text-white-1`}>
         <Header />
-        <div className="h-dvh overflow-hidden pt-12 lg:pt-20">
+        <div className="h-dvh overflow-hidden pt-0 lg:pt-20">
           <main className="h-full">{children}</main>
         </div>
         <Nav />

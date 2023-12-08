@@ -16,6 +16,7 @@ export default function Page() {
         ))}
       </div>
       <div className="h-auto w-full max-w-3xl mx-auto grid lg:hidden grid-cols-2 gap-4 pb-52">
+        <div className="h-12"></div>
         {MobileWorksItems.map((item, i) => (
           <GridItem key={i} {...item} />
         ))}

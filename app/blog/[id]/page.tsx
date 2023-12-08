@@ -17,7 +17,7 @@ export default async function Page({ params }: { params: { id: string } }) {
   console.log(blog)
 
   return (
-    <article className="h-full overflow-y-auto p-2 mt-2 lg:mt-0">
+    <article className="h-full overflow-y-auto p-2 mt-12 lg:mt-0">
       <BackButton href="/blog" />
       <main className="px-3 pb-20 lg:pb-3 text-black-2">
         <div className="flex justify-between mt-3 mb-1">
