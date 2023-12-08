@@ -1,19 +1,36 @@
 import type { Metadata } from 'next'
 
+import Item from '../_components/main/items/blog/blog-item'
+import { fetchBlogs } from '../_lib/data'
+import type { BlogItem } from '../_lib/definitions'
+
 export const metadata: Metadata = {
   title: 'ブログ',
 }
 
-export default function Page() {
+export default async function Page() {
+  const blogs: BlogItem[] = await fetchBlogs()
+
   return (
-    <article className="border border-green-400 h-full p-4 mx-auto max-w-6xl overflow-hidden">
-      <div className="h-auto w-full border border-blue-500 hidden lg:grid grid-cols-4 gap-4">
-        <div className="border border-white bg-white/40 rounded-md opacity-0 showBottomTop h-52"></div>
-        <div className="border border-white bg-white/40 rounded-md opacity-0 showBottomTop h-52"></div>
-        <div className="border border-white bg-white/40 rounded-md opacity-0 showBottomTop h-52"></div>
-        <div className="border border-white bg-white/40 rounded-md opacity-0 showBottomTop h-52"></div>
-        <div className="border border-white bg-white/40 rounded-md opacity-0 showBottomTop h-52"></div>
-      </div>
+    <article className="h-screen p-4 pt-3 pb-52 mx-auto max-w-6xl overflow-y-scroll overflow-x-hidden">
+      <h2 className="text-xl mb-1 tracking-wider">RYUのブログへようこそ👋</h2>
+      <h3 className="text-sm mb-4">
+        日々の日記やメモがてら、気ままに書いていきます。
+      </h3>
+      {blogs.length === 0 ? (
+        <div className="h-full flex justify-center items-center">
+          <p className="text-lg mb-4">まだなにも書いてません 😓</p>
+        </div>
+      ) : (
+        <div className="w-full grid grid-cols-2 lg:grid-cols-4 grid-rows-3 gap-4">
+          {blogs.map((item, i) => (
+            <div key={i}>
+              <Item item={item} />
+            </div>
+          ))}
+        </div>
+      )}
+      <div className="h-auto w-full max-w-3xl mx-auto grid lg:hidden grid-cols-2 gap-4 pb-52"></div>
     </article>
   )
 }

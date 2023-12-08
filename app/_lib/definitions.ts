@@ -29,3 +29,14 @@ export type WorkItem = {
   publishedAt: string
   revisedAt: string
 }
+
+export type BlogItem = {
+  id: string
+  title: string
+  content: string
+  categories: string[]
+  createdAt: string
+  updatedAt: string
+  publishedAt: string
+  revisedAt: string
+}

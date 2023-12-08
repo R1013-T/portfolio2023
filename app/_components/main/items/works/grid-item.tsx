@@ -1,10 +1,10 @@
 import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/solid'
 import Image from 'next/image'
 
-import { fetchWorks } from '@/app/_lib/data'
+import { fetchWorkItem } from '@/app/_lib/data'
 
 export default async function WorksGridItem({ id }: { id: string }) {
-  const item = await fetchWorks(id)
+  const item = await fetchWorkItem(id)
 
   if (!item) return null
 
