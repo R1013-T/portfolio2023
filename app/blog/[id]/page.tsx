@@ -15,14 +15,16 @@ export default async function Page({ params }: { params: { id: string } }) {
   const blog: BlogItem = await res.json()
 
   return (
-    <article className="h-full overflow-y-auto p-2 mt-12 lg:mt-0">
+    <article className="h-full overflow-y-auto p-2 mt-12 lg:mt-0 max-w-3xl mx-auto">
       <BackButton href="/blog" />
-      <main className="px-3 pb-20 lg:pb-3 text-black-2">
-        <div className="flex justify-between mt-3 mb-1">
-          <h2 className="text-black-1 text-2xl font-bold">{blog.title}</h2>
+      <main className="px-3 pb-20 lg:pb-">
+        <div className="flex justify-between mt-3 mb-1 text-white-1">
+          <h2 className=" text-3xl font-bold mb-4">{blog.title}</h2>
           <p>{blog.createdAt.split('T')[0]}</p>
         </div>
-        <div className="font-semibold">{parse(blog.content)}</div>
+        <div className="font-semibold blog-content text-white-2">
+          {parse(blog.content)}
+        </div>
       </main>
     </article>
   )
