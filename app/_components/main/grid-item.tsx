@@ -12,8 +12,6 @@ export default function GridItem({
   disabled?: boolean
 }) {
   const square = col === 1 && row === 1
-  const vertical = col === 1 && row === 2
-  const horizontal = col === 2 && row === 1
 
   return (
     <div

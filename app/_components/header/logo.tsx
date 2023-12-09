@@ -11,7 +11,7 @@ export default function Logo() {
         width={40}
         alt="プロフィール画像"
       />
-      <p className="tracking-wider font-bold text-base lg:text-xl">RYU</p>
+      <h1 className="tracking-wider font-bold text-base lg:text-xl">RYU</h1>
     </Link>
   )
 }

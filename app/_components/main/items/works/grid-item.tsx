@@ -18,7 +18,7 @@ export default async function WorksGridItem({ id }: { id: string }) {
         className="rounded-xl scale-50"
       />
       <div className="absolute top-0 left-0 p-3 text-black-1 tracking-wide">
-        <p className="font-bold">{item.name}</p>
+        <h3 className="font-bold">{item.name}</h3>
         <p className="text-black-2 text-sm">{item.description}</p>
       </div>
       <div className="absolute bottom-0 left-0 w-full p-3">

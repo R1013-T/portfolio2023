@@ -14,8 +14,6 @@ export default async function Page({ params }: { params: { id: string } }) {
   })
   const blog: BlogItem = await res.json()
 
-  console.log(blog)
-
   return (
     <article className="h-full overflow-y-auto p-2 mt-12 lg:mt-0">
       <BackButton href="/blog" />

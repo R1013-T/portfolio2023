@@ -20,14 +20,14 @@ export default function Profile() {
           </DoubleBorder>
         </div>
         <div>
-          <p className="font-bold text-black-1 text-xl lg:text-2xl mb-2 tracking-widest">
-            髙橋 龍之介
-          </p>
-          <p className="text-black-2 text-sm lg:text-base">
+          <h2 className="font-bold text-black-1 text-xl lg:text-2xl mb-2 tracking-wider">
+            RYU
+          </h2>
+          <h3 className="text-black-2 text-sm lg:text-base">
             ものづくりが好きな学生エンジニアです。
             <br />
             東京都に生息しています。
-          </p>
+          </h3>
         </div>
       </div>
     </ItemLayout>
