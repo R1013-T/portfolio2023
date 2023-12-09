@@ -1,5 +1,6 @@
 import './globals.css'
 
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import type { Metadata } from 'next'
 
 import Header from './_components/header'
@@ -27,6 +28,7 @@ export default function RootLayout({
           <main className="h-full">{children}</main>
         </div>
         <Nav />
+        <SpeedInsights />
       </body>
     </html>
   )
