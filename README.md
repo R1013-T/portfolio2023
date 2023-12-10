@@ -1,30 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+新しいポートフォリオサイトを立ち上げました！
+皆さん、こんにちは！今回は、私が最近取り組んでいたプロジェクトについてお話ししたいと思います。それは、私の新しいポートフォリオサイトの作成です。
 
-## Getting Started
+このサイトの構築には、最新のテクノロジーを駆使しました。まず、フロントエンドの開発には「[Next.js14](https://nextjs.org/blog/next-14)」を使用しました。[Next.js](https://nextjs.org/)は[React](https://ja.react.dev/)ベースのフレームワークで、特にその最新バージョンでは[サーバーコンポーネント](https://nextjs.org/docs/app/building-your-application/rendering/server-components)を利用することで、高速なサイト構築を実現できます。これにより、サイトの読み込み速度やパフォーマンスが大幅に向上しました。
 
-First, run the development server:
+バックエンドに関しては、自分で一から開発する代わりに、「[microCMS](https://microcms.io/)」を採用しました。microCMSは日本発のヘッドレスCMSで、コンテンツ管理を簡単かつ効率的に行えます。これにより、コンテンツの更新や管理が非常にスムーズになりました。
 
-```bash
-bun dev
-```
+さらに、サイトのパフォーマンス監視には、[Vercel](https://vercel.com/)の[Analytics](https://vercel.com/docs/analytics)と[SpeedInsights](https://vercel.com/docs/speed-insights)を使用しています。これらのツールにより、リアルタイムでサイトのパフォーマンスを追跡し、必要に応じて最適化を行うことができます。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+このポートフォリオサイトは、私の技術的なスキルとクリエイティブな才能を示す場として、大変重要な意味を持っています。そして、何かご意見やご感想があれば、お気軽に[お問い合わせ](https://www.ryu-tech.tokyo/about)いただけると嬉しいです！
