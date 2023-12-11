@@ -13,8 +13,8 @@ export default function Skill() {
         <Image
           src="/images/tech/ts.png"
           alt="TypeScriptのロゴ"
-          width={80}
-          height={80}
+          width={90}
+          height={70}
         />
         <Image
           src="/images/tech/react.svg"
