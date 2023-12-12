@@ -35,6 +35,7 @@ export type BlogItem = {
   title: string
   content: string
   categories: string[]
+  qiita?: string
   createdAt: string
   updatedAt: string
   publishedAt: string
