@@ -5,7 +5,7 @@ import ItemLayout from '../item-layout'
 
 export default function MeImage() {
   return (
-    <ItemLayout link="/about#profile">
+    <ItemLayout link="/about">
       <div className="flex justify-center items-center h-full">
         <div className="">
           <div className="bg-white-4 rounded-full">
