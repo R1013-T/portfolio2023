@@ -37,12 +37,7 @@ export const metadata: Metadata = {
     site: '@rtjob2023',
     creator: '@rtjob2023',
     images: [
-      {
-        url: 'https://www.ryu-tech.tokyo/_next/image?url=/images/icon.png&w=256&q=75',
-        width: 256,
-        height: 256,
-        alt: 'RYU PORTFOLIO',
-      },
+      'https://www.ryu-tech.tokyo/_next/image?url=/images/icon.png&w=256&q=75',
     ],
   },
 }
