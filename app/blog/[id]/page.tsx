@@ -1,3 +1,4 @@
+import { InformationCircleIcon } from '@heroicons/react/24/solid'
 import parse from 'html-react-parser'
 import Image from 'next/image'
 
@@ -35,6 +36,12 @@ export default async function Page({ params }: { params: { id: string } }) {
             </a>
           )}
         </div>
+        {blog.qiita && (
+          <div className="bg-[#57C40F]/60 rounded-md py-4 px-3 text-base my-5 flex items-center gap-2">
+            <InformationCircleIcon className="w-7 h-7 text-white-1" />
+            <a href={blog.qiita} target='_blank' className='hover:border-b' >Qiitaにも同じ記事を投稿しています！</a>
+          </div>
+        )}
         <div className="font-semibold blog-content text-white-2 mt-2">
           {parse(blog.content)}
         </div>
