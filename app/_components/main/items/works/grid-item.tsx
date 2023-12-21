@@ -27,9 +27,9 @@ export default async function WorksGridItem({ id }: { id: string }) {
             <span
               className={`${
                 item.status[0] === 'Done' ? 'bg-green-400' : 'bg-blue-400'
-              } h-4 w-4 rounded-full opacity-70`}
+              } h-4 w-4 rounded-full mb-0.5 opacity-70`}
             ></span>
-            <p>{item.status}</p>
+            <p>{item.status[0] === 'Done' ? '完成' : '作成中'}</p>
           </div>
           <div className="flex items-center justify-center gap-2.5">
             {item.url && (
