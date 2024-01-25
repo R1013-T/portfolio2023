@@ -127,6 +127,12 @@
   margin-bottom: 1rem;
 }
 
+.blog-content img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
 ::-webkit-scrollbar {
   width: 7px;
 }

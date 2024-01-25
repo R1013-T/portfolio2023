@@ -3,6 +3,7 @@ import HomeTown from '@/app/_components/main/items/about/home-town'
 import Mail from '@/app/_components/main/items/about/mail'
 import MeImage from '@/app/_components/main/items/about/me-image'
 import Profile from '@/app/_components/main/items/about/profile'
+import Sizu from '@/app/_components/main/items/about/sizu'
 import Skill from '@/app/_components/main/items/about/skill'
 import Slot from '@/app/_components/main/items/about/slot'
 import X from '@/app/_components/main/items/about/x'
@@ -48,7 +49,7 @@ export const DesktopAboutItems: GridItem[] = [
   {
     col: 1,
     row: 1,
-    children: <HomeTown />,
+    children: <Sizu />,
     animation: 'showLeftRight',
   },
   {
@@ -93,7 +94,7 @@ export const MobileAboutItems: GridItem[] = [
   {
     col: 1,
     row: 1,
-    children: <HomeTown />,
+    children: <Sizu />,
     animation: 'showLeftRight',
   },
   {

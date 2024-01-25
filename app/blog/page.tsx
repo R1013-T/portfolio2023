@@ -16,7 +16,7 @@ export default async function Page() {
       <div className="h-12 lg:h-0"></div>
       <h2 className="text-xl mb-1 tracking-wider font-bold">RYUのブログへようこそ👋</h2>
       <h3 className="text-sm mb-4 text-white-2">
-        日々の日記やメモがてら、気ままに書いていきます。
+        日々の日記やメモがてら、気ままに書いていきます。また、LT会で使用した資料もこちらにまとめています。
       </h3>
       {blogs.length === 0 ? (
         <div className="h-full flex justify-center items-center">
