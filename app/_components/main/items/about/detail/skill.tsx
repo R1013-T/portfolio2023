@@ -87,7 +87,7 @@ export default function Skill() {
       </div>
       <h3 className="text-lg font-semibold">その他</h3>
       <p className="text-sm mb-1">
-        クラウドやAI、Web3.0についても興味があります。現在はtRPCに注目しています。
+        クラウドやAI、Web3.0についても興味があります。tRPCに注目しています。
       </p>
       <div className="flex gap-4 w-full flex-wrap py-2 mb-5">
         <Image

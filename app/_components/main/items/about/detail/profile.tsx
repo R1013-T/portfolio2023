@@ -20,7 +20,7 @@ export default function Profile() {
           </h2>
           <div className=" font-semibold text-white-2 tracking-wide mb-2">
             <p className="mb-1">
-              モノづくりが好きな学生エンジニアです。主にWeb関係の技術について勉強しています。
+              ものづくりや新しいものが好きな学生エンジニアです。主にWeb関係の技術について勉強しています。
             </p>
             <p>
               また、技術だけでなく、コミュニケーション能力等、人間的な能力も高めて行きたいと考えています。
