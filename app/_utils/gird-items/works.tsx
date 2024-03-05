@@ -63,7 +63,7 @@ export const MobileWorksItems: GridItem[] = [
   {
     col: 1,
     row: 1,
-    children: <div className='h-20 border' >a</div>,
+    children: <div className="h-20 border">a</div>,
     disabled: true,
   },
   {

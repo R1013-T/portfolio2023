@@ -36,6 +36,7 @@ export type BlogItem = {
   content: string
   categories: string[]
   qiita?: string
+  sizu?: string
   createdAt: string
   updatedAt: string
   publishedAt: string
