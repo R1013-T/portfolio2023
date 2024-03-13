@@ -45,6 +45,12 @@ export const MobileWorksItems: GridItem[] = [
   {
     col: 2,
     row: 1,
+    children: <WorksGridItem id="izd1rri3my9" />,
+    animation: 'showTopBottom',
+  },
+  {
+    col: 2,
+    row: 1,
     children: <WorksGridItem id="w4tjcaken-8" />,
     animation: 'showTopBottom',
   },
@@ -59,12 +65,6 @@ export const MobileWorksItems: GridItem[] = [
     row: 1,
     children: <WorksGridItem id="s9i98f4xmb" />,
     animation: 'showLeftRight',
-  },
-  {
-    col: 1,
-    row: 1,
-    children: <WorksGridItem id="izd1rri3my9" />,
-    animation: 'showTopBottom',
   },
   {
     col: 1,
