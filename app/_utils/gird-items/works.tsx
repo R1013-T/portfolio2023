@@ -24,8 +24,8 @@ export const DesktopWorksItems: GridItem[] = [
   {
     col: 1,
     row: 1,
-    children: <p></p>,
-    disabled: true,
+    children: <WorksGridItem id="izd1rri3my9" />,
+    animation: 'showTopBottom',
   },
   {
     col: 1,
@@ -63,8 +63,8 @@ export const MobileWorksItems: GridItem[] = [
   {
     col: 1,
     row: 1,
-    children: <div className="h-20 border">a</div>,
-    disabled: true,
+    children: <WorksGridItem id="izd1rri3my9" />,
+    animation: 'showTopBottom',
   },
   {
     col: 1,
