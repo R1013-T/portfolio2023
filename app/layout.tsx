@@ -3,11 +3,11 @@ import './globals.css'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import type { Metadata } from 'next'
+import { redirect } from 'next/navigation'
 
 import Header from './_components/header'
 import Nav from './_components/nav'
 import { LINESeedJP } from './_utils/fonts'
-import { redirect } from 'next/navigation'
 
 export const metadata: Metadata = {
   title: {
