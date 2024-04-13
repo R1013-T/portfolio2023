@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 import Header from './_components/header'
 import Nav from './_components/nav'
 import { LINESeedJP } from './_utils/fonts'
+import { redirect } from 'next/navigation'
 
 export const metadata: Metadata = {
   title: {
@@ -47,6 +48,8 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  redirect('https://www.ryu1013.com/')
+
   return (
     <html lang="ja">
       <body className={`${LINESeedJP.className} bg text-white-1`}>
